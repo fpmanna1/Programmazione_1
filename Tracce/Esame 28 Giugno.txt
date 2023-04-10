@@ -1,0 +1,25 @@
+Università degli studi di Napoli
+Corso di Programmazione 1 - Prof. Valeria Vittorini
+Prova di Esame del 28 giugno 2021
+Durata della prova: 2h
+
+Si vuole realizzare una applicazione per l'acquisto di biglietti relativi ad eventi che possono essere concerti o 
+spettacoli teatrali. 
+La classe evento ha le seguenti variabili membro: data dell'evento, durata e luogo in cui l'evento si svolgerà. La 
+data dell'evento è un oggetto di tipo Data (si realizzi una semplice classe contente tre interi per giorno, mese, 
+anno, i costruttori con e senza argomenti e l'operatore <<), la durata è espressa in minuti (sia un intero), il 
+luogo è rappresentato mediante una stringa C di caratteri allocata dinamicamente. 
+La classe concerto ha come variabile membro il nome dell'orchestra e del direttore (siano rispettivamente una 
+stringa C allocata staticamente e una stringa C allocata dinamicamente), mentre lo spettacolo teatrale ha le 
+variabili membro compagnia e titolo dello spettacolo (entrambi oggetti di tipo string).
+Si realizzino per la classi le funzionalità necessarie alla corretta gestione dell'estensione dinamica (ove 
+necessario) e l'overloading degli operatori << e >>, implementando l'operatore << tenendo conto di quanto 
+detto sotto.
+La classe biglietto consente l'acquisto di un biglietto per un evento e la stampa del biglietto che deve riportare 
+tutti i dati dell'evento (quindi anche le informazioni relative al concerto o allo spettacolo teatrale). Oltre ad 
+implementare quindi una relazione con la classe evento, ha le variabili membro codice (numero intero) e costo 
+(float). Si realizzi per tale classe una funzione di stampa del biglietto e le get per le variabili codice e costo.
+Si realizzi infine un elenco di biglietti realizzati mediante una lista linkata a puntatori. Si implementino SOLO la 
+funzione push che lancia una eccezione nel caso si tenti di inserire un biglietto con un codice già presente nella 
+lista e una funzione di stampa su file di tipo testo di tutti i biglietti. L'eccezione sia una stringa.
+Si implementi un programma di test delle funzioni e delle classi realizzate.

@@ -1,0 +1,38 @@
+Programmazione 1: Prova al calcolatore del 20 settembre 2021
+Si vuole realizzare una applicazione per la gestione di una serie di tutorial su temi di tecnologie 
+dell'informazione. Alcuni tutorial prevedono una parte esercitativa per i partecipanti. I tutorial che prevedono 
+la parte esercitativa sono a numero chiuso. Tutti i tutorial sono tenuti da un docente detto tutor. 
+La classe che realizza l'astrazione del tutorial ha come attributi un codice alfanumerico (stringa C allocata 
+staticamente), il titolo del tutorial (stringa C allocata dinamicamente), il tutor (si decida che relazione c'e' con 
+la classe docente), e la durata del tutorial (numero intero).  
+La classe che realizza l'astrazione del tutorial con esercitazione deve avere come attributi anche il numero 
+massimo di partecipanti (numero intero) e una breve descrizione dell'esercitazione (stringa C allocata 
+dinamicamente). 
+La classe che realizza l'astrazione del docente ha come attributi nome, cognome, affiliazione e titolo (tutti 
+oggetti di tipo string)
+Tutte le classi devono fornire le funzioni getter e setter, l'overloading degli operatori << e >> e le funzionalità 
+necessarie ad una corretta gestione dell'estensione dinamica, ove presente. La classe tutorial deve inoltre 
+fornire una funzione booleana che controlli che il codice sia di 4 caratteri, iprimi due lettere maiuscole e i 
+rimanenti cifre.
+Si realizzi infine una classe che supporti un utente nella realizzazione della serie di tutorial, consentendo 
+l'inserimento e la stampa di una locandina. La serie è rappresentata mediante una lista linkata a puntatori e ha 
+anche un titolo per la serie (oggetto di tipo string). Le operazioni che devono essere implementate sono le 
+seguenti:
+1)	Inserimento in testa, la funzione non inserire l'elemento se il codice del tutorial è già presente
+2)	Stampa della locandina (a video e su file di tipo testo), prima di stampare si controlli che i codici siano 
+tutti corretti, in caso contrario la stampa lancia una eccezione e la locandina non viene stampata.
+Per implementare le suddette funzionalità è possibile realizzare ulteriori metodi non esplicitamente 
+richiesti.
+Si sviluppi infine un programma di test delle classi e delle funzionalità realizzate.
+Esempio di locandina:
+SERIE DI TUTORIAL SUI LINGUAGGI DI PROGRAMMAZIONE
+LP01. PARADIGMI E LINGUAGGI 
+Tutor: Giovanni Verdi, Università di Laggiù, Direttore del Laboratorio ALFA
+Durata: 2 ore
+ LP02. LINGUAGGIO C++ e LINGUAGGIO JAVA a confronto
+Tutor: Mario Speranza, NeverTools SRL, Direttore della divisione di sviluppo
+Durata: 5 ore, Numero massimo di partecipanti: 30
+Parte esercitativa: sviluppo di una applicazione 
+LP03. LINGUAGGI EMERGENTI
+Tutor: Lucia Bianchi, Centro di ParaRicerca , Dipartimento di Programmazione, Ricercatrice
+Durata: 3 ore
