@@ -1,0 +1,9 @@
+Sviluppare le classi Ristorante e Chef. La classe Ristorante ha le variabili membro Nome (stringa C allocata dinamicamente) Indirizzo (stringa C allocata staticamente), Specialità (oggetto di tipo string) e numero di stelle (intero), inoltre ogni ristorante ha uno Chef. 
+
+La classe Chef ha le variabili membro Nome, Cognome, Piatto famoso (oggetti di tipo string), ed è lo chef di un ristorante.
+
+Si sviluppino per la classe Ristorante le funzionalità necessarie ad una corretta gestione dell'estensione dinamica, le funzioni get e una funzione che controlla che il numero di stelle sia compreso tra 1 e 5, e lancia una eccezione altrimenti. Per entrambe le classi gli operatori di shift e l'operatore di relazione ==.  L'operatore << della classe ristorante stampa anche il nome e il cognome dell'attuale chef .
+
+Le classi possono devono essere realizzate accorpandole in un unico modulo, come da file aperti dal sistema.
+
+Sviluppare infine un programma driver (main) che consenta di testare le classi e le funzionalità realizzate. 

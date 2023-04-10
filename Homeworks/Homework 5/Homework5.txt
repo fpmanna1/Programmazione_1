@@ -1,0 +1,3 @@
+Modificare le classi Pila e Coda realizzate a lezione e rappresentate mediante un vettore di dimensione nota a tempo di compilazione sostituendo a tale rappresentazione quella mediante un vettore allocato dinamicamente. Si realizzino quindi i metodi necessari alla corretta gestione della memoria dinamica.
+
+Utilizzare elementi di tipo T scegliendo tra le classi già realizzate (Prodotto, Calciatore, etc.)
