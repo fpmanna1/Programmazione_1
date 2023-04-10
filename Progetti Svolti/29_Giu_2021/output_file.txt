@@ -1,0 +1,32 @@
+ELEMENTO -> 0
+Titolo : Gioconda
+Descrizione : Bello
+Codice : A129IU
+Info Autore : Nome : Francesco Pio
+Anno Nascita : 2000
+Anno Morte : 2999
+Tecnica : acquerello
+Tipo : quadro
+
+
+ELEMENTO -> 1
+Titolo : David
+Descrizione : Brutto
+Codice : C432ER
+Info Autore : Nome : Kiril
+Anno Nascita : 2000
+Anno Morte : 2021
+Materiale : marmo
+Peso : 200
+
+ELEMENTO -> 2
+Titolo : Urlo
+Descrizione : Così
+Codice : ZZZZ3
+Info Autore : Nome : Francesco Pio
+Anno Nascita : 2000
+Anno Morte : 2999
+Tecnica : olio
+Tipo : tela
+
+

@@ -1,0 +1,25 @@
+------BIGLIETTO NUM.1------------
+-----STAMPA INFO BIGLIETTO-----
+CODICE : 456
+COSTO :6.98 Euro
+-----STAMPA DATI EVENTO-----
+LUOGO : Napoli
+DATA : 12-12-2021
+DURATA : 120
+ORCHESTRA : San Carlo
+DIRETTORE : Sig. Colombo
+
+
+------BIGLIETTO NUM.2------------
+-----STAMPA INFO BIGLIETTO-----
+CODICE : 123
+COSTO :4 Euro
+-----STAMPA DATI EVENTO-----
+LUOGO : Napoli
+DATA : 12-12-2021
+DURATA : 120
+-----STAMPA INFO SPETTACOLO-----
+COMPAGNIA : compagnia
+TITOLO : titolo
+
+
