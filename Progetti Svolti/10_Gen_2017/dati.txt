@@ -1,0 +1,17 @@
+------STAMPA INSIEME------
+-----STAMPA INFO OGGETTO------
+CODICE : 1234
+DESCRIZIONE : Martello
+FORMA : Quadrato
+-----STAMPA INFO LIBRO------
+TITOLO : Codice Da Vinci
+NUMERO DI PAGINE : 200
+
+-----STAMPA INFO OGGETTO------
+CODICE : 78910
+DESCRIZIONE : Cellulare
+FORMA : Rettangolare
+-----STAMPA INFO CELLULARE------
+MODELLO : 1+ 7 Pro
+COSTO : 1500
+
